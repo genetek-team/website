@@ -1,7 +1,14 @@
 <script>
+	import '../app.css';
+
+	// Supports weights 100-900
+	import '@fontsource-variable/dm-sans';
+
 	import { PrismicPreview } from '@prismicio/svelte/kit';
 	import { page } from '$app/stores';
 	import { repositoryName } from '$lib/prismicio';
+	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <svelte:head>
@@ -17,7 +24,14 @@
 		<meta name="twitter:card" content="summary_large_image" />
 	{/if}
 </svelte:head>
+
+<div class="h-4 w-full bg-red-600"></div>
+<Header navigation={$page.data.navigation} />
+
 <main>
 	<slot />
 </main>
+
+<Footer navigation={$page.data.navigation} />
+
 <PrismicPreview {repositoryName} />
