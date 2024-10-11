@@ -1,0 +1,56 @@
+{
+  "id": "info_products",
+  "type": "SharedSlice",
+  "name": "InfoProducts",
+  "description": "InfoProducts",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2,em"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em"
+          }
+        },
+        "info_product_card": {
+          "type": "Group",
+          "config": {
+            "label": "Info Product Card",
+            "repeat": true,
+            "fields": {
+              "infoproduct": {
+                "type": "Link",
+                "config": {
+                  "label": "InfoProduct",
+                  "select": "document",
+                  "customtypes": [
+                    "info_product"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

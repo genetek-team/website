@@ -1,0 +1,43 @@
+{
+	"format": "custom",
+	"id": "cart",
+	"label": "Cart",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"cart_title": {
+				"type": "StructuredText",
+				"config": {
+					"label": "Cart Title",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"multi": "heading3"
+				}
+			},
+			"cart_description": {
+				"type": "StructuredText",
+				"config": {
+					"label": "Cart Description",
+					"placeholder": "",
+					"allowTargetBlank": true,
+					"multi": "paragraph,strong,em"
+				}
+			},
+			"button_link": {
+				"type": "Link",
+				"config": {
+					"label": "Button Link",
+					"select": "document"
+				}
+			},
+			"button_text": {
+				"type": "Text",
+				"config": {
+					"label": "Button Text",
+					"placeholder": ""
+				}
+			}
+		}
+	}
+}

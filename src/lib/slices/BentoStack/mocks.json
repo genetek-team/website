@@ -67,6 +67,72 @@
 									"value": "56",
 									"type": "Number"
 								}
+							],
+							[
+								"description",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Commodo enim Lorem magna aute ea commodo adipisicing aliquip consequat quis dolore excepteur consequat."
+											}
+										}
+									]
+								}
+							],
+							[
+								"link",
+								{
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "DocumentLink",
+										"id": "mock_document_id"
+									}
+								}
+							],
+							[
+								"short_description_1",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Anim cillum ipsum consectetur eu excepteur labore proident. Minim sunt non ad enim tempor consequat duis officia."
+											}
+										}
+									]
+								}
+							],
+							[
+								"short_description_2",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Proident quis culpa irure officia."
+											}
+										}
+									]
+								}
+							],
+							[
+								"short_description_3",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Proident aute amet do in."
+											}
+										}
+									]
+								}
 							]
 						]
 					}

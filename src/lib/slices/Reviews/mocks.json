@@ -1,0 +1,90 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Vessels"
+						}
+					}
+				]
+			},
+			"card": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"title",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "heading2",
+											"content": {
+												"text": "Suppose"
+											}
+										}
+									]
+								}
+							],
+							[
+								"body",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Fugiat deserunt nulla deserunt quis. Mollit excepteur ea est laborum incididunt qui. Mollit dolore cillum est excepteur veniam magna culpa Lorem do laborum mollit excepteur."
+											}
+										}
+									]
+								}
+							],
+							[
+								"name",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "In velit ut velit consequat. Tempor incididunt exercitation eiusmod in aliquip cillum cupidatat occaecat deserunt voluptate ad laboris non ea enim. Lorem labore nisi nisi non ad aute incididunt est dolor sunt."
+											}
+										}
+									]
+								}
+							],
+							[
+								"icon",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "chat",
+									"type": "Select"
+								}
+							],
+							[
+								"review",
+								{
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "DocumentLink",
+										"id": "mock_document_id"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

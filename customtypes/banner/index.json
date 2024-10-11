@@ -1,0 +1,37 @@
+{
+	"format": "custom",
+	"id": "banner",
+	"label": "Banner",
+	"repeatable": false,
+	"status": true,
+	"json": {
+		"Main": {
+			"announcements": {
+				"type": "Group",
+				"config": {
+					"label": "Announcements",
+					"repeat": true,
+					"fields": {
+						"info": {
+							"type": "StructuredText",
+							"config": {
+								"label": "Info",
+								"placeholder": "",
+								"allowTargetBlank": true,
+								"multi": "paragraph,strong,em"
+							}
+						},
+						"icon": {
+							"type": "Select",
+							"config": {
+								"label": "Icon",
+								"placeholder": "",
+								"options": ["1", "2"]
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

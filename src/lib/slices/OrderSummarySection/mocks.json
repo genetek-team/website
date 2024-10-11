@@ -1,0 +1,87 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Limited"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Dolor commodo aliquip do sit minim aliqua. Dolore exercitation incididunt dolore occaecat laborum nostrud amet incididunt laboris veniam minim occaecat."
+						}
+					}
+				]
+			},
+			"bitcoin_address": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Commodo dolore labore occaecat magna dolor aliquip. Mollit fugiat eu in."
+						}
+					}
+				]
+			},
+			"button_link": {
+				"__TYPE__": "LinkContent",
+				"value": {
+					"__TYPE__": "DocumentLink",
+					"id": "mock_document_id"
+				}
+			},
+			"button_text": {
+				"__TYPE__": "FieldContent",
+				"value": "wheel",
+				"type": "Text"
+			},
+			"bitcoin_payment_description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua et cupidatat elit consequat et tempor id. Excepteur excepteur in consectetur sunt quis commodo enim mollit eiusmod. Dolor ipsum voluptate laborum cupidatat eu fugiat non do labore fugiat reprehenderit non."
+						}
+					}
+				]
+			},
+			"e_transfer_payment_description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Deserunt commodo excepteur do sunt elit anim."
+						}
+					}
+				]
+			},
+			"email_for_e_transfer": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Consectetur do velit excepteur."
+						}
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

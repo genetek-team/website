@@ -27,16 +27,28 @@
 				"fieldset": "Slice Zone",
 				"config": {
 					"choices": {
+						"promo_cards": {
+							"type": "SharedSlice"
+						},
 						"bento_stack": {
+							"type": "SharedSlice"
+						},
+						"info_products": {
+							"type": "SharedSlice"
+						},
+						"reviews": {
+							"type": "SharedSlice"
+						},
+						"pin_cards": {
+							"type": "SharedSlice"
+						},
+						"case_studies": {
 							"type": "SharedSlice"
 						},
 						"bento": {
 							"type": "SharedSlice"
 						},
 						"hero": {
-							"type": "SharedSlice"
-						},
-						"rich_text": {
 							"type": "SharedSlice"
 						}
 					}

@@ -1,0 +1,83 @@
+{
+  "id": "case_studies",
+  "type": "SharedSlice",
+  "name": "CaseStudies",
+  "description": "CaseStudies",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2,em"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "secondary_info": {
+          "type": "Group",
+          "config": {
+            "label": "Secondary Info",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "heading3,em"
+                }
+              },
+              "description": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Description",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em"
+                }
+              }
+            }
+          }
+        },
+        "case_study_card": {
+          "type": "Group",
+          "config": {
+            "label": "Case Study Card",
+            "repeat": true,
+            "fields": {
+              "case_study": {
+                "type": "Link",
+                "config": {
+                  "label": "Case Study",
+                  "select": "document",
+                  "customtypes": [
+                    "category"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

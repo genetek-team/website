@@ -1,0 +1,55 @@
+{
+  "id": "promo_cards",
+  "type": "SharedSlice",
+  "name": "PromoCards",
+  "description": "PromoCards",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2,strong,em"
+          }
+        },
+        "card": {
+          "type": "Group",
+          "config": {
+            "label": "Card",
+            "repeat": true,
+            "fields": {
+              "titel": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Titel",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "strong,em,heading2"
+                }
+              },
+              "body": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Body",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

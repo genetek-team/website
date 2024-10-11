@@ -45,9 +45,19 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@emailjs/browser": "^4.4.1",
 		"@fontsource-variable/dm-sans": "^5.0.7",
 		"@prismicio/client": "^7.8.0",
 		"@prismicio/svelte": "^1.2.0",
-		"clsx": "^2.1.1"
+		"bits-ui": "^0.21.13",
+		"clsx": "^2.1.1",
+		"embla-carousel-svelte": "^8.2.1",
+		"gsap": "^3.12.5",
+		"lucide-svelte": "^0.439.0",
+		"mode-watcher": "^0.4.1",
+		"svelte-sonner": "^0.3.28",
+		"sveltekit-starter-prismic-minimal": "file:",
+		"tailwind-merge": "^2.5.2",
+		"tailwind-variants": "^0.2.1"
 	}
 }

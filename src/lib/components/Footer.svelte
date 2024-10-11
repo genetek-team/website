@@ -1,6 +1,6 @@
 <script>
-	import { PrismicLink } from '@prismicio/svelte';
-	import WordMark from './WordMark.svelte';
+	import { PrismicLink, PrismicImage } from '@prismicio/svelte';
+	// import WordMark from './WordMark.svelte';
 
 	/** @type {import("@prismicio/client").Content.NavigationDocument} */
 	export let navigation;
@@ -12,13 +12,15 @@
 		aria-label="Footer"
 	>
 		<a href="/">
-			<WordMark />
+			<div class="h-[40px] w-[135px] mt-6 md:m-0 lg:m-0">
+				<PrismicImage field={navigation.data.og_image} />
+			</div>
 			<span class="sr-only">{navigation.data.site_title} home page</span>
 		</a>
 
-		<ul class="flex gap-6">
+		<ul class="invisible flex gap-6 md:visible lg:visible">
 			{#each navigation.data.nav as item (item.label)}
-				<li>
+				<li class="text-sm">
 					<PrismicLink class="inline-flex min-h-11 items-center" field={item.link}>
 						{item.label}
 					</PrismicLink>

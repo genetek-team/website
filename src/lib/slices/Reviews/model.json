@@ -1,0 +1,82 @@
+{
+  "id": "reviews",
+  "type": "SharedSlice",
+  "name": "Reviews",
+  "description": "Reviews",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "heading2,em"
+          }
+        },
+        "card": {
+          "type": "Group",
+          "config": {
+            "label": "Card",
+            "repeat": true,
+            "fields": {
+              "title": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Title",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "heading2"
+                }
+              },
+              "body": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Body",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em"
+                }
+              },
+              "name": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Name",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "multi": "paragraph,strong,em"
+                }
+              },
+              "icon": {
+                "type": "Select",
+                "config": {
+                  "label": "Icon",
+                  "placeholder": "",
+                  "options": [
+                    "quote",
+                    "chat"
+                  ]
+                }
+              },
+              "review": {
+                "type": "Link",
+                "config": {
+                  "label": "Review",
+                  "select": "document"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

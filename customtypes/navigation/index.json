@@ -38,14 +38,6 @@
 					"label": "Nav",
 					"repeat": true,
 					"fields": {
-						"link": {
-							"type": "Link",
-							"config": {
-								"label": "Link",
-								"placeholder": "",
-								"select": null
-							}
-						},
 						"label": {
 							"type": "Text",
 							"config": {
@@ -53,88 +45,11 @@
 								"placeholder": ""
 							}
 						},
-						"cart_button": {
-							"type": "Boolean",
-							"config": {
-								"label": "Cart Button",
-								"default_value": false,
-								"placeholder_true": "true",
-								"placeholder_false": "false"
-							}
-						},
-						"sub_link_1": {
+						"link": {
 							"type": "Link",
 							"config": {
-								"label": "Sub Link 1",
-								"placeholder": "",
-								"select": null
-							}
-						},
-						"sub_link_2": {
-							"type": "Link",
-							"config": {
-								"label": "Sub Link 2",
-								"placeholder": "",
-								"select": null
-							}
-						},
-						"sub_link_3": {
-							"type": "Link",
-							"config": {
-								"label": "Sub Link 3",
-								"placeholder": "",
-								"select": null
-							}
-						},
-						"sub_link_4": {
-							"type": "Link",
-							"config": {
-								"label": "Sub Link 4",
-								"placeholder": "",
-								"select": null
-							}
-						},
-						"sub_link_5": {
-							"type": "Link",
-							"config": {
-								"label": "Sub Link 5",
-								"placeholder": "",
-								"select": null
-							}
-						},
-						"sub_field_label_1": {
-							"type": "Text",
-							"config": {
-								"label": "Sub Field Label 1",
-								"placeholder": ""
-							}
-						},
-						"sub_field_label_2": {
-							"type": "Text",
-							"config": {
-								"label": "Sub Field Label 2",
-								"placeholder": ""
-							}
-						},
-						"sub_field_label_3": {
-							"type": "Text",
-							"config": {
-								"label": "Sub Field Label 3",
-								"placeholder": ""
-							}
-						},
-						"sub_field_label_4": {
-							"type": "Text",
-							"config": {
-								"label": "Sub Field Label 4",
-								"placeholder": ""
-							}
-						},
-						"sub_field_label_5": {
-							"type": "Text",
-							"config": {
-								"label": "Sub Field Label 5",
-								"placeholder": ""
+								"label": "Link",
+								"select": "document"
 							}
 						}
 					}
